@@ -1,8 +1,10 @@
 package com.mile.one.oneMile;
 
+import com.mile.one.oneMile.models.Greeting;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
@@ -14,8 +16,8 @@ public class OneMileApplication {
     }
 
     @GetMapping("/")
-    public String hello() {
-        return "nice to meet you, the rich man!";
+    @ResponseBody
+    public Greeting hello() {
+        return new Greeting(123,"123");
     }
 }
-    set HTTP_PROXY=http://127.0.0.1:7890 && set HTTPS_PROXY=http://127.0.0.1:7890
