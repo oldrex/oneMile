@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 //@SpringBootApplication
-@RestController
+//@RestController
 public class OneMileApplication {
     private static final Logger log = LoggerFactory.getLogger(OneMileApplication.class);
 
