@@ -1,7 +1,7 @@
-package com.mile.one.oneMile.repository;
+package com.mile.one.oneMile.repository.gemfire;
 
 
-import com.mile.one.oneMile.models.Person;
+import com.mile.one.oneMile.models.gemfire.Person;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
