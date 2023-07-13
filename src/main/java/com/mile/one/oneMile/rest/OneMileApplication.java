@@ -1,17 +1,13 @@
-package com.mile.one.oneMile;
+package com.mile.one.oneMile.rest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.mile.one.oneMile.models.Greeting;
-import com.mile.one.oneMile.models.Quote;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 //@SpringBootApplication

@@ -1,6 +1,5 @@
-package com.mile.one.oneMile;
+package com.mile.one.oneMile.gemfire;
 
-import com.mile.one.oneMile.models.gemfire.Person;
 import org.apache.geode.cache.client.ClientRegionShortcut;
 
 import org.springframework.boot.SpringApplication;

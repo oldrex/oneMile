@@ -1,8 +1,8 @@
-package com.mile.one.oneMile.repository.jpa;
+package com.mile.one.oneMile.jpa;
 
 import java.util.List;
 
-import com.mile.one.oneMile.models.jpa.Person;
+import com.mile.one.oneMile.jpa.Person;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;

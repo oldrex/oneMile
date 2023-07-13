@@ -1,4 +1,4 @@
-package com.mile.one.oneMile.models.jpa;
+package com.mile.one.oneMile.jpa;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

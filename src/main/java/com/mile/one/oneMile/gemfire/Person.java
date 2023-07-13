@@ -1,4 +1,4 @@
-package com.mile.one.oneMile.models.gemfire;
+package com.mile.one.oneMile.gemfire;
 
 
 import lombok.Data;

@@ -1,14 +1,13 @@
-package com.mile.one.oneMile.controller
+package com.mile.one.oneMile.rest
 
-import com.mile.one.oneMile.models.Greeting
-import com.mile.one.oneMile.models.Rich
+import com.mile.one.oneMile.rest.Greeting
+import com.mile.one.oneMile.rest.Rich
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam
-import org.springframework.web.bind.annotation.ResponseBody
 import org.springframework.web.bind.annotation.RestController
 import java.util.concurrent.atomic.AtomicLong
 
-@RestController
+//@RestController
 class GreetingController {
     private val template = "Hello, %s!"
     private val counter = AtomicLong()
