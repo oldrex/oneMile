@@ -7,11 +7,11 @@ import org.springframework.data.gemfire.config.annotation.ClientCacheApplication
 import org.springframework.data.gemfire.config.annotation.EnableEntityDefinedRegions;
 
 //@SpringBootApplication
-@ClientCacheApplication(name = "AccessingGemFireDataRestApplication")
-@EnableEntityDefinedRegions(
-        basePackageClasses = Person.class,
-        clientRegionShortcut = ClientRegionShortcut.LOCAL
-)
+//@ClientCacheApplication(name = "AccessingGemFireDataRestApplication")
+//@EnableEntityDefinedRegions(
+//        basePackageClasses = Person.class,
+//        clientRegionShortcut = ClientRegionShortcut.LOCAL
+//)
 //@EnableGemfireRepositories
 @SuppressWarnings("unused")
 public class GemApplication {
