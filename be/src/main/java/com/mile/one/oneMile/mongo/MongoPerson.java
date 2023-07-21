@@ -2,7 +2,7 @@ package com.mile.one.oneMile.mongo;
 
 import org.springframework.data.annotation.Id;
 
-public class Person {
+public class MongoPerson {
 
     @Id private String id;
 
