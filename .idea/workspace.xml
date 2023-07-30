@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dee1e09e-e246-4ef6-8036-1ba4723489bc" name="Changes" comment="add a link for response">
-      <change beforePath="$PROJECT_DIR$/app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
   <component name="ProjectId" id="2SHo00w9uxKUcuwsRJhmmf6zf1L" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,13 +65,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/idea_j2ee/oneMile/be",
+    "last_opened_file_path": "E:/oneMile/be",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "http.proxy",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "30082134212a9fa6b8d2a9b4c78ab146",
     "vue.rearranger.settings.migration": "true"
   }
@@ -90,25 +95,21 @@
   </component>
   <component name="RunManager">
     <configuration name="oneMile" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH" value="20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <module name="com.mile.one.oneMile.main" />
+      <module name="oneMile" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mile.one.oneMile.SpringApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="SwaggerCodegen">
-      <option name="activeConfigurationType" value="FILE" />
-      <option name="configurationPath" value="" />
-      <option name="customJreEnabled" value="false" />
       <option name="customTemplatesPath" value="" />
-      <option name="enableDebugLogging" value="false" />
       <option name="generateToPath" value="E:\idea_j2ee\oneMile\gen" />
       <option name="generationParameters">
         <list />
       </option>
-      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="generatorType" value="OPENAPI_GENERATOR_V6" />
       <option name="jdkPath" value="" />
       <option name="language" value="java" />
       <option name="specificationPath" value="C:\Users\85879\AppData\Roaming\JetBrains\IntelliJIdea2023.1\openApiExport\oneMile-openapi.yaml" />
@@ -142,6 +143,14 @@
       <workItem from="1689424602818" duration="178000" />
       <workItem from="1689519293547" duration="520000" />
       <workItem from="1689603359348" duration="429000" />
+      <workItem from="1690692495816" duration="941000" />
+      <workItem from="1690693799231" duration="1492000" />
+      <workItem from="1690707063076" duration="352000" />
+      <workItem from="1690711376914" duration="116000" />
+      <workItem from="1690711518274" duration="203000" />
+      <workItem from="1690711768951" duration="2324000" />
+      <workItem from="1690716208839" duration="1200000" />
+      <workItem from="1690718658934" duration="1710000" />
     </task>
     <task id="LOCAL-00001" summary="add a link for response">
       <option name="closed" value="true" />
