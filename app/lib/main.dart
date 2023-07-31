@@ -1,3 +1,4 @@
+import 'package:app/com/one/mile/animate/custom_text.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -47,6 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            const CustomText(),
             const Text(
               'You have pushed the button this many times:',
             ),

@@ -10,7 +10,7 @@ group = 'com.mile.one'
 version = '0.0.1-SNAPSHOT'
 
 java {
-	sourceCompatibility = '18'
+	sourceCompatibility = '19'
 }
 
 configurations {
@@ -41,6 +41,8 @@ dependencies {
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+
+//	implementation 'mysql:mysql-connector-java:8.0.28'
 }
 
 tasks.named('test') {
