@@ -13,7 +13,7 @@ class _CustomTextState extends State<CustomText> {
   @override
   Widget build(BuildContext context) {
     return Text(
-      'hi world !!!',
+      '啊哈哈哈',
       style: TextStyle(fontSize: 80, foreground: getPaint()),
     );
   }
@@ -50,6 +50,7 @@ class _CustomTextState extends State<CustomText> {
       TileMode.mirror,
       Matrix4.rotationZ(pi / 6).storage, // 旋转变换
     );
+    paint.maskFilter = const MaskFilter.blur(BlurStyle.solid, 10);
     return paint;
   }
 }
